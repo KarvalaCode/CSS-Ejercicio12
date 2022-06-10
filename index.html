@@ -1,0 +1,85 @@
+</html>
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Elementos de Interés en Bootstrap</title>
+</head>
+<body>
+    <div class="container d-flex flex-column justify-content-center align-content-center">
+        
+    <!--jUMBOTRON  -->        
+
+    <div class="container"> 
+        <div class="bg-light p-5 rounded-3">
+            <div class="container-fluid py-5">
+                <h1>Jumbotron Personalizado</h1>
+                <p class="col-md-8 fs-4">
+                    Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking. 
+                </p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Botón con modal </button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Título del modal</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Esto es un modal lanzado a partir de  un botón
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <!--FORMULARIO  -->        
+
+
+    <div class="container pt-4 py-5">
+        <form>
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Aquí tu nombre">
+
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="number" class="form-control" id="telefono" placeholder="Aquí tu teléfono">
+
+            <label for="mensaje" class="form-label">Escribe tu mensaje: </label>
+            <textarea class="form-control" id="mensaje" placeholder="Aquí tu mensaje" aria-label="With textarea"></textarea>
+        
+            <button type="submit" class="btn btn-primary mt-4">Enviar</button>
+        </form>
+    </div>
+    
+    <!--TARGETA  -->        
+    
+    <div class="container py-5 text-center align-self-md-center">
+        <div class="card mx-5 my-4" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title">Sara Gómez Sandín</h5>
+            <p class="card-text">Desarrolladora Backend con experiencia en Java</p>
+            <div class="card-footer">Sara@Karvala.net</div>    
+            </div>
+        </div>
+    </div>
+
+
+    </div> 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
